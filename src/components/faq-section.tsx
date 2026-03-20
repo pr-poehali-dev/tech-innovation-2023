@@ -3,34 +3,34 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQSection() {
   const faqs = [
     {
-      question: "Насколько безопасна процедура SynapseAI?",
+      question: "What is economics?",
       answer:
-        "Да, процедура выполняется прецизионным хирургическим роботом и прошла обширное тестирование. Все материалы биосовместимы и одобрены FDA для медицинского применения.",
+        "Economics is the activity of producing, distributing, exchanging, and consuming goods, as well as the science that studies these processes to satisfy human needs.",
     },
     {
-      question: "Сколько длится операция?",
+      question: "What is opportunity cost?",
       answer:
-        "Малоинвазивная процедура обычно занимает 2-3 часа и проводится под местной анестезией с седацией.",
+        "Opportunity cost is the value of the next best alternative you give up when making a choice. For example, buying a game instead of going to the movies — the movies become your opportunity cost.",
     },
     {
-      question: "Можно ли удалить устройство?",
+      question: "What is the difference between demand and supply?",
       answer:
-        "Да, SynapseAI разработан полностью обратимым. Устройство можно безопасно удалить при необходимости, хотя это требуется редко.",
+        "Demand refers to how many people want to buy a product, while supply refers to how much the seller has available. The balance between the two determines the market price.",
     },
     {
-      question: "Какие ощущения при использовании SynapseAI?",
+      question: "What is VAT and why do we pay it?",
       answer:
-        "Пользователи отмечают, что управление устройствами силой мысли ощущается естественно и интуитивно после короткого периода обучения. От самого импланта нет физических ощущений.",
+        "VAT (Value Added Tax) is an indirect tax included in the price of goods. It goes to the state budget and comes back to citizens as public services: roads, parks, police, and healthcare.",
     },
     {
-      question: "Как долго работает батарея?",
+      question: "Why do some workers earn more than others?",
       answer:
-        "Устройство заряжается беспроводным способом и работает полный день на одном заряде. Зарядка выполняется внешним устройством, размещаемым рядом с головой.",
+        "Workers with rare and valuable skills earn higher wages because their knowledge is a scarce resource in the labor market. Education and training are investments in your human capital.",
     },
     {
-      question: "Кто может получить SynapseAI?",
+      question: "What is inflation?",
       answer:
-        "В настоящее время мы фокусируемся на людях с тяжелым параличом. Соответствие определяется через комплексную медицинскую оценку.",
+        "Inflation is a general rise in prices over time, which reduces the purchasing power of money. Banks and deposits help protect savings from inflation.",
     },
   ]
 
@@ -38,9 +38,9 @@ export function FAQSection() {
     <section className="py-24 bg-black">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Частые вопросы</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-orbitron">Key Questions</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-space-mono">
-            Ответы на популярные вопросы о технологии SynapseAI, безопасности и опыте пациентов.
+            Answers to the most important questions about economics and how it affects our daily lives.
           </p>
         </div>
 

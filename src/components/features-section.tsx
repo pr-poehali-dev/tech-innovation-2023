@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
+    title: "Choice & Scarcity",
+    description: "Every day we face limited resources — time and money. Choosing one thing means giving up another. This trade-off is called opportunity cost.",
     icon: "brain",
-    badge: "ИИ",
+    badge: "Slide 2",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
+    title: "Family Budget",
+    description: "We act as mini-managers: planning income and expenses, allocating funds for essential payments and savings. This builds financial literacy.",
     icon: "lock",
-    badge: "Сертификат",
+    badge: "Slide 3",
   },
   {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
+    title: "Market & Prices",
+    description: "When we go to the store, we enter market relations. A product's price reflects the balance between demand and supply.",
     icon: "globe",
-    badge: "Точность",
+    badge: "Slide 4",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Labor & Human Capital",
+    description: "Education and skills are investments in ourselves. In-demand specialists earn more because their knowledge is a valuable resource.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Slide 5",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
+    title: "Consumption & Taxes",
+    description: "Every purchase includes indirect taxes like VAT that fund roads, parks, police, and medical services — coming back to us all.",
     icon: "link",
-    badge: "Связь",
+    badge: "Slide 6",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Global Connections",
+    description: "Coffee from Brazil, smartphones from China, software from the US — global trade makes goods more accessible and diverse for everyone.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Slide 8",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Key Economic Concepts</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Explore the fundamental principles that govern how we produce, distribute, and consume goods
           </p>
         </div>
 
